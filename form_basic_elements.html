@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Elements</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="style.css" media="screen"> -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+	<marquee  direction="left">Good morning</marquee>
+	<h1>Form basic elements</h1>
+	<form method="get" action="result.html">
+		<fieldset>
+			<legend>Input Box Elements</legend>
+			<p>
+				<label for="input_text">Text:</label>
+				<input id="input_text" type="text" placeholder="Text">
+			</p>
+			<p>
+				<label for="input_email">Email:</label>
+				<input id="input_email" type="Email" placeholder="test@gmail.com">
+			</p>
+			<p>
+				<label for="input_password">Password:</label>
+				<input id="input_password" type="Password" placeholder="Password">
+			</p>
+			<p>
+				<label for="input_number">Number:</label>
+				<input id="input_number" type="Number" placeholder="Number">
+
+			</p>
+			<p>
+				<label for="input_phonenumber">Phone Number:</label>
+				<input id="input_phonenumber" type="tel" placeholder="(999)99999999">
+			</p>
+			<p>
+				<label for="input_url">URL:</label>
+				<input id="input_url" type="URL" placeholder="https://www.something.com">
+			</p>
+			<p>
+				<label for="input_search">Search:</label>
+				<input id="input_search" type="Search" placeholder="Search...">
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Select Form element</legend>
+			<p>
+				<label for="Select">Select:</label>
+				<select id="Select">
+					<optgroup label="option group 1">
+						<option>option1 one</option>
+						<option>option1 two</option>
+						<option>option1 three</option>
+					</optgroup>
+
+					<optgroup label="option group 2">
+						<option>option2 one</option>
+						<option>option2 two</option>
+						<option>option2 three</option>	
+					</optgroup>
+				</select>
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Radio button element</legend>
+			<p>
+				<ul>
+					<li>
+						<label for="radio_option1">Option1</label>
+						<input id="radio_option1" name="Radio" type="Radio" checked>
+					</li>
+					<li>
+						<label for="radio_option2">Option2</label>
+						<input id="radio_option2r" name="Radio" type="Radio">
+					</li>
+				</ul>
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Check Box Element</legend>
+			<p>
+				<label for="checkbox_option">Check box:</label>
+				<input id="checkbox_option" name="Check box" type="checkbox" >
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>TextArea Element</legend>
+			<p>
+				<label for="textarea1">Textarea:</label><br>
+				
+				<textarea id="textarea1" rows="5" cols="50" placeholder="Enter any text"></textarea>
+			</p>
+		</fieldset>
+
+		<p><input type="submit">&nbsp;&nbsp;<input type="reset"></p>
+	</form>
+	<br><br><br>
+	<hr>
+	<hr>
+
+	<h1>Student Details Form</h1>
+
+	<form method="get" action="result.html">
+		<p>
+			<label for="first_name">First Name:</label>
+
+			<input id="first_name" type="text" placeholder="First Name">
+		</p>
+		<p>
+			<label for="last_name">Last Name: </label>
+			<input id="last_name" type="text" placeholder="Last Name">
+		</p>
+		<p>
+			<label for="input_age">Age:</label>
+			<input type="Number" id="input_age" placeholder="your age">
+		</p>
+		<p>
+			<label for="input_email">Email:</label>
+			<input type="Email" id="input_email" placeholder="abc@gmail.com">
+		</p>
+		<p>
+			<label for="mobile_number">Number:</label>
+			<input type="tel" id="mobile_number" placeholder="contact number">
+		</p>
+		<p>
+			<label for="select_class">Applying for:</label>
+			<select id="select_class">
+				<optgroup label="PRIMARY">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+				</optgroup>
+				<optgroup label="SECONDARY">
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</optgroup>
+			</select>
+		</p>
+
+		<p>
+			<h1>Gender</h1>
+			<label for="radio_male">Male:</label>
+			<input id="radio_male" name="Gender" type="Radio" checked>
+			<label for="radio_female">Female:</label>
+			<input type="Radio" name="Gender" id="radio_female">
+		</p>
+		<p>
+			<input type="submit" value="send"> <input type="reset" value="clear">
+		</p>
+	</form>
+
+</body>
+</html>
